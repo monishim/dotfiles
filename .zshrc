@@ -1,8 +1,8 @@
 export LANG=ja_JP.UTF-8
 
 # rbenv settings
-export RBENV_ROOT=/usr/local/opt/rbenv
-eval "$(rbenv init - zsh)"
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
 
 #User Settings
 autoload -U compinit
