@@ -1,9 +1,5 @@
 export LANG=ja_JP.UTF-8
 
-# rbenv settings
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
-
 #User Settings
 autoload -U compinit
 compinit
@@ -36,7 +32,7 @@ setopt share_history
 setopt auto_pushd
 
 #For Macports
-export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin
+export PATH=/usr/local/opt:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin
 export MANPATH=/usr/local/man:$MANPATH
 export DISPLAY=0:0
 
