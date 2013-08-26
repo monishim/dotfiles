@@ -32,7 +32,7 @@ setopt share_history
 setopt auto_pushd
 
 #For Macports
-export PATH=/usr/local/opt:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/opt:/usr/X11/bin:$HOME/.cabal/bin
 export MANPATH=/usr/local/man:$MANPATH
 export DISPLAY=0:0
 
