@@ -32,17 +32,7 @@ setopt share_history
 setopt auto_pushd
 
 
-export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/opt:/usr/X11/bin:$HOME/.cabal/bin:/usr/local/Cellar/ruby/2.0.0-p195/bin
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/opt:/usr/X11/bin:$HOME/.cabal/bin
 export MANPATH=/usr/local/man:$MANPATH
 export DISPLAY=0:0
-
-export VMAIL_HTML_PART_READER='elinks -dump'
-
-#Alias Settings
-alias vi='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/MacOS/Vim "$@"'
-alias vim='env_LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/MacOS/Vim "$@"'
-
-. /sw/bin/init.sh
-
-
 
